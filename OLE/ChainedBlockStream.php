@@ -144,7 +144,9 @@ class OLE_ChainedBlockStream extends PEAR
     function stream_close()
     {
         $this->ole = null;
-        unset($GLOBALS['_OLE_INSTANCES']);
+        if (isset($GLOBALS)) {
+            unset($GLOBALS['_OLE_INSTANCES']);
+        }
     }
 
     /**
