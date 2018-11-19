@@ -4,6 +4,8 @@ This is a fork of the package PEAR::OLE (pear/ole) with a bugfix for [PEAR bug #
 
 Pull Request on upstream: [https://github.com/pear/OLE/pull/10](https://github.com/pear/OLE/pull/10)
 
+**Note**: this fix has been incorporated upstream in release ``v1.0.0RC5``. This fork is no longer necessary.
+
 # Upstream README
 
 This package is http://pear.php.net/package/OLE and has been migrated from https://svn.php.net/repository/pear/packages/OLE
